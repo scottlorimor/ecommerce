@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "ecommerce template",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottlorimor/ecommerce.git"
+  },
+  "author": "Scott Lorimor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottlorimor/ecommerce/issues"
+  },
+  "homepage": "https://github.com/scottlorimor/ecommerce#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.4"
+  }
+}
