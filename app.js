@@ -14,7 +14,7 @@ var db = mongo('ecommerce', ['products']); // (dbName, ['collections to work wit
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cors());
-
+app.use(express.static(__dirname+ '/js'));
 
 
 app.listen(port, function() {
